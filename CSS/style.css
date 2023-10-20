@@ -1,0 +1,13 @@
+.Horizontal{
+    max-width: 650px;
+    max-height: auto;
+}
+.Vertical{
+    max-height: 700px;
+    max-width: auto;
+}
+
+.Logo{
+    max-width: 120px;
+    max-height: auto;
+}
