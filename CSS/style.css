@@ -4,10 +4,15 @@
     background-position: center;
     background-size: cover;
     height: 42rem;
-    .texto{
-        color: aliceblue;
-    }
-    
+    margin-top: 10px;
+}
+
+.inicio{
+    --opacidad-negro: .8;
+    background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/Logo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 42rem;   
 }
 
 .Horizontal{
@@ -22,4 +27,7 @@
 .Logo{
     max-width: 120px;
     max-height: auto;
+}
+.texto{
+    color: aliceblue;
 }
