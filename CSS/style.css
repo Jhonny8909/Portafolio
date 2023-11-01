@@ -1,5 +1,5 @@
 .acerca{
-    --opacidad-negro: 0.4;
+    --opacidad-negro: 0.6;
     background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/Yo.jpg");
     background-position: center;
     background-size: cover;
@@ -15,7 +15,7 @@
 }
 
 .Horizontal{
-    max-width: 650px;
+    max-width: 600px;
     max-height: auto;
 }
 .Vertical{
@@ -39,7 +39,21 @@
     background-color: #3b1b43;
 }
 
-@media (max-width: 915px) {
+@media (max-width: 1200px) {
+    .Horizontal{
+        max-width: 400px;
+        max-height: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .Horizontal{
+        max-width: 300px;
+        max-height: auto;
+    }
+}
+
+@media (max-width: 800px) {
 
     .Logo{
         max-width: 100px;
@@ -47,7 +61,7 @@
     }
 
     .Horizontal{
-        max-width: 200px;
+        max-width: 250px;
         max-height: auto;
     }
     .Vertical{
@@ -57,5 +71,12 @@
 
     .texto{
         margin-top: 20px;
+    }
+}
+
+@media (max-width: px) {
+    .Horizontal{
+        max-width: 400px;
+        max-height: auto;
     }
 }
