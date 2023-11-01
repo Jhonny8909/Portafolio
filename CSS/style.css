@@ -35,8 +35,8 @@
     color: aliceblue;
 }
 
-h2{
-    text-align: center;
+.background-navbar{
+    background-color: #3b1b43;
 }
 
 @media (max-width: 915px) {
