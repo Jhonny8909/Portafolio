@@ -36,6 +36,22 @@
     color: aliceblue;
 }
 
+.carousel-inner img {
+    max-width: 1000px;
+    max-height: auto;
+}
+
+.carousel-inner{
+    max-width: 1000px;
+    max-height: auto;
+}
+
+.carousel{
+    max-width: 1000px;
+    max-height: auto;
+    justify-content: center ;
+}
+
 @media (max-width: 1200px) {
     .Horizontal{
         max-width: 400px;
