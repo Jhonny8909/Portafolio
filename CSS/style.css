@@ -1,5 +1,5 @@
 .acerca{
-    --opacidad-negro: 0.6;
+    --opacidad-negro: 0.5;
     background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/Yo.webp");
     background-position: center;
     background-size: cover;
@@ -8,8 +8,16 @@
 }
 
 .Proyectos{
-    --opacidad-negro: .8;
+    --opacidad-negro: .6;
     background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/Logo.webp");
+    background-position: center;
+    background-size: cover;
+    height: 42rem;   
+}
+
+.Proyectos-activos{
+    --opacidad-negro: .5;
+    background-image: linear-gradient(rgb(0,0,0, var(--opacidad-negro)),rgba(0,0,0, var(--opacidad-negro))), url("../img/DreamShaper_v7_galaxia_con_efectos_de_lsd_0\ \(1\).webp");
     background-position: center;
     background-size: cover;
     height: 42rem;   
@@ -51,6 +59,51 @@
     max-height: auto;
     justify-content: center ;
 }
+
+footer{
+    background-color: black;
+}
+
+.center{
+    justify-items: center;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #C13584;
+    color: white;
+  }
+
+  body{
+    background-color: black;
+  }
 
 @media (max-width: 1200px) {
     .Horizontal{

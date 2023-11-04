@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./CSS/bootstrap.min.css">
     <link rel="stylesheet" href="./CSS/bootstrap-icons/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -24,23 +25,18 @@
             <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="">
+                    <a class="nav-link active link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" aria-current="page" href="#Proyectos">
                         Proyectos
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="Proyectos">
+                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#ProyectosActivos">
                         Proyectos Activos
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">
+                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#Contacto">
                         Contacto
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">
-                        CV
                     </a>
                   </li>
                 </ul>
@@ -74,7 +70,7 @@
         </section>
         <!--Proyectos-->
         <section class="Proyectos py-5">
-            <div class="container">
+            <div class="container ">
                 <h2 class="texto text-center display-3" id="Proyectos">Proyectos</h2>
                 <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
@@ -134,10 +130,71 @@
                   </div>
             </div>
         </section>
-        
+        <!--Proyectos Activos-->
+        <section class="Proyectos-activos py-5">
+          <div class="container">
+              <h2 class="texto text-center display-3" id="ProyectosActivos">Proyectos Activos</h2>
+              <div id="ProyectosActivos2" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#ProyectosActivos2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#ProyectosActivos2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#ProyectosActivos2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <a href="./Documentos/EmpathyMap.webp">
+                          <img src="./Documentos/EmpathyMap.webp" class="d-block w-100" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block bg-dark">
+                        <h5 class="text-white">
+                          Empathy map
+                        </h5>
+                        <p class="text-white">Empathy map creado en base al publico que consumiria el juego de little bears kindergarden</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="https://github.com/Jhonny8909/CrackmanSinErrores">
+                          <img src="./img/PacmanMenu.webp" class="d-block w-100" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block bg-dark">
+                        <h5>PacMan 3D</h5>
+                        <p>Es el primer juego en 3D que cree y se hizo a partir de pivotes.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <a href="https://inztinct.itch.io/colores-caoticos">
+                          <img src="./img/SMjGVn.webp" class="d-block w-100" alt="...">
+                      </a>
+                      <div class="carousel-caption d-none d-md-block bg-dark">
+                        <h5>Colores locos</h5>
+                        <p>Es un juego de ritmo basado en simon dice enfocado para niños de 4 a 10 años.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#ProyectosActivos2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#ProyectosActivos2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+          </div>
+      </section>
     </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <footer>
-        
+      <div>
+        <a href="https://www.facebook.com/joelmp24/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/jhonny7809" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/jonathan-joel-montesinos-pacheco-32806a293/" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/joelmp24/" class="fa fa-instagram"></a>
+      </div>
     </footer>
     <script src="./JS/jquery-3.7.0.min.js"></script>
     <script src="./JS/bootstrap.min.js"></script>
